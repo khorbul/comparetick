@@ -12,10 +12,15 @@ export function generateMetadata({ params }: Props): Metadata {
   };
 }
 
+export async function generateStaticParams() {
+  return [
+    { ticker: "aapl", start: "2010", end: "2024" }, // 👈 Add more later
+  ];
+}
+
 export default function Page({ params }: Props) {
   const { ticker, start, end } = params;
 
-  // Replace with actual ROI formula later
   const dummyROI = "372%";
 
   return (
