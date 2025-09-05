@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CompareTick – Trading Tools & ROI Calculators",
+  title: "CompareTick – ROI Calculators & Trading Tool Comparisons",
   description:
-    "CompareTick helps you analyze investment returns, evaluate trading tools, and find the best platforms to grow your capital.",
+    "Calculate historical investment returns, compare prop firms, and explore tool reviews for smarter trading.",
 };
 
 export default function RootLayout({
@@ -24,9 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-white text-black">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <nav className="w-full border-b bg-white sticky top-0 z-50">
           <div className="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
