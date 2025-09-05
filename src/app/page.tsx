@@ -6,7 +6,7 @@ export default function Home() {
       </h1>
 
       <p className="text-lg text-gray-700 mb-6">
-        CompareTick is your go-to resource for analyzing historical investment returns, comparing trading tools, and making smarter capital decisions — fast.
+        CompareTick helps you analyze historical investment returns, compare trading tools, and make smarter capital decisions — fast.
       </p>
 
       <div className="space-y-4 mb-10">
