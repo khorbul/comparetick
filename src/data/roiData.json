@@ -1,0 +1,6 @@
+[
+    { "ticker": "aapl", "start": "2010", "end": "2024", "roi": "372%" },
+    { "ticker": "spy",  "start": "2012", "end": "2024", "roi": "198%" },
+    { "ticker": "nvda", "start": "2016", "end": "2024", "roi": "672%" },
+    { "ticker": "btc",  "start": "2015", "end": "2024", "roi": "4123%" }
+  ]
